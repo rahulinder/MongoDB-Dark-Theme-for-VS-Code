@@ -1,0 +1,22 @@
+{
+  "name": "mongodb-dark-theme",
+  "displayName": "MongoDB Dark",
+  "description": "A dark theme based on MongoDB's brand colors",
+  "publisher": "rahulinder",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MongoDB Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MongoDB Dark-color-theme.json"
+      }
+    ]
+  }
+}
